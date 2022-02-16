@@ -19,9 +19,9 @@ public class SearchTest {
         // TEST PART B
         // use the same numArray and test the same three values as above, in the
         // same order, printing each result:  should print true, true, false
-
-
-
+        System.out.println(Search.linearSearchIsFound(numArray, 38));
+        System.out.println(Search.linearSearchIsFound(numArray, 9));
+        System.out.println(Search.linearSearchIsFound(numArray, 5));
 
         // TEST PARTS C & D -- UNCOMMENT TEST CODE
         /*
